@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RandomGenAndMath
+public class MathFile
 {
     public static void main(String args[])
     {

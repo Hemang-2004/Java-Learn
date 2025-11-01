@@ -1,7 +1,7 @@
-import java.util.*;
+// import java.util.*;
 public class StringMethods
 {
-    
+
     public static void main(String args[])
     {   
         String name = "Hemang is there";
@@ -33,5 +33,19 @@ public class StringMethods
         {
              System.out.println("Bhai tussi pagal ho");
         }
+        // substrings
+        String email = "hemangseth0411@gmail.com";
+        System.out.println(email.substring(4));
+        System.out.println(email.substring(4,8));
+        String mailConfig = email.substring(email.indexOf("@")+1);
+        System.out.println(mailConfig);
+        String username = email.substring(0,email.indexOf("@"));
+        System.out.println(username);
+
+
+        int num=432;
+        int finalans = (num==100) ?  3 :8;
+        System.out.println(finalans);
+        
     }
 }

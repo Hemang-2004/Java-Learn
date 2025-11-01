@@ -11,5 +11,16 @@ public class UseOfprintf
         System.out.printf("%04d\n",b);
         System.out.printf("%04d\n",c);
         System.out.printf("%04d\n",d);
+        String day = sc.nextLine();
+        switch(day)
+        {
+            case "Monday" -> System.out.println("Day 1");
+            case "Tuesday" -> System.out.println("Day 2");
+            case "Wednesday" -> System.out.println("Day 3");
+            case "Thursday" -> System.out.println("Day 4");
+            case "Friday" -> System.out.println("Day 5");
+            case "Saturday" -> System.out.println("Day 6");
+            case "Sunday" -> System.out.println("Day 7");
+        }
     }
 }
